@@ -1,7 +1,7 @@
 # ESP32-S3 Smooth GIF/Animation Player
 
 This repository demonstrates how to play smooth, full-color animations on an ST7789 display using an ESP32-S3. By bypassing standard `.h` memory limits and utilizing the ESP32-S3's LittleFS and PSRAM, this method allows for long, high-framerate animations without crashing the Arduino IDE or running out of flash memory during compilation.
-
+https://github.com/user-attachments/assets/b5143dd6-3955-4502-b8cf-dd60941ef99e
 ## 🛠️ Workflow: From GIF to ESP32
 
 To keep the ESP32-S3 fast and memory-efficient, we pre-process the GIF into a raw RGB565 binary file (`.bin`) before uploading it to the microcontroller's filesystem.
